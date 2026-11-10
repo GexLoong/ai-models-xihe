@@ -50,7 +50,7 @@ xihe/
 AI_MODELS_ASSETS=/path/to/models/xihe \
 ai-models --lead-time 24 --date 20190101 \
   --file /path/to/models/xihe/input_data \
-  --path ./xihe_output xihe --provider maca
+  --path ./xihe_output xihe
 ```
 
 `--lead-time` is in **hours**, a positive multiple of 24 up to 240. XiHe predicts
